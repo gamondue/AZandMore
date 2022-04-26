@@ -27,9 +27,15 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
+# salva tutti i file AZandMore* nella cartella Release
+# (bisogna "liberare" le altre prima)
+!AZandMore/bin/
+!AZandMore/bin/Release/
+!AZandMore/bin/Release/AZandMore*
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
