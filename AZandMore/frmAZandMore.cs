@@ -19,7 +19,7 @@ namespace AZandMore
         {
             InitializeComponent();
 #if DEBUG
-            Global.PathRoot = @"C:\OneDriveScuola\OneDrive - ispascalcomandini.gov.it\Develop\Cs\AZandMore\";
+            Global.PathRoot = @"D:\Develop\Git\AZandMore\AZandMore_Distributable Folder\";
 #else
             Global.PathRoot = Path.GetDirectoryName(Application.ExecutablePath);
 #endif
